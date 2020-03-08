@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Calculator:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Calculator_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Calculator/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Calculator" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$APPLICATION_HOME_DIR$/gwt-2.8.2/gwt-servlet.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="Calculator/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

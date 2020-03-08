@@ -1,0 +1,10 @@
+body, h1, h2, h3 {font-family: "Oswald", sans-serif}
+body, html {height: 100%}
+
+.bgimg
+{
+    background-image: url('wall.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
